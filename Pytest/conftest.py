@@ -1,7 +1,7 @@
 import pytest
 
 
-@pytest.fixture()
+@pytest.fixture(scope="class")
 def setup():
     print("I'l be running first")
 #this part for open browser etc
