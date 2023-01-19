@@ -1,0 +1,8 @@
+2023-01-19 16:42:55,182 : INFO : test_logging : Information messages
+2023-01-19 16:42:55,182 : WARNING : test_logging : Something in the warning mode
+2023-01-19 16:42:55,182 : ERROR : test_logging : A major error has happened
+2023-01-19 16:42:55,182 : CRITICAL : test_logging : Critical issue
+2023-01-19 16:43:58,242 : INFO : test_logging : Information messages
+2023-01-19 16:43:58,242 : WARNING : test_logging : Something in the warning mode
+2023-01-19 16:43:58,242 : ERROR : test_logging : A major error has happened
+2023-01-19 16:43:58,242 : CRITICAL : test_logging : Critical issue
