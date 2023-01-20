@@ -9,7 +9,7 @@ def test_logging():
     filehandler.setFormatter(formatter)
 
     logger.addHandler(filehandler)  # finlehandler  object
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.INFO)
     logger.debug("A debug statement is executed")
     logger.info("Information messages")
     logger.warning("Something in the warning mode")

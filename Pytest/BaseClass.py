@@ -1,9 +1,11 @@
+import inspect
 import logging
 
 
 class BaseClass:
-    def test_logging(self):
-        logger = logging.getLogger(__name__)
+    def getlogger(self):
+        loggerName = inspect.stack()[1][3]
+        logger = logging.getLogger(loggerName)
 
         filehandler = logging.FileHandler('logfile.log')
         formatter = logging.Formatter("%(asctime)s :%(levelname)s : %(name)s :%(message)s")
